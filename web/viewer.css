@@ -8228,3 +8228,49 @@ body,
   border: none !important;
   box-shadow: none !important;
 }
+/* CHARTED GROUND — CLEAN EMBED */
+
+#toolbarContainer,
+#loadingBar,
+#secondaryToolbar,
+#viewsManager {
+  display: none !important;
+}
+
+#outerContainer,
+#mainContainer {
+  top: 0 !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#viewerContainer {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  position: absolute !important;
+
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+#viewerContainer::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.pdfViewer {
+  padding-bottom: 10px !important;
+}
+
+.pdfViewer .page {
+  margin: 0 auto 8px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
