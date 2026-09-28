@@ -8274,3 +8274,23 @@ body,
   border: none !important;
   box-shadow: none !important;
 }
+
+/* HORIZONTAL CAROUSEL */
+
+.horizontal-mode #viewerContainer {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+
+.horizontal-mode .pdfViewer {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  width: max-content !important;
+}
+
+.horizontal-mode .pdfViewer .page {
+  flex: 0 0 auto !important;
+  margin: 0 8px 0 0 !important;
+}
+
