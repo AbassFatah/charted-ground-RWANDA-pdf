@@ -8204,3 +8204,31 @@ dialog :link{
     display:none;
   }
 }
+/* CHARTED GROUND — PDF VIEWER */
+
+html,
+body {
+  background: #f7f5ef !important;
+}
+
+#mainContainer {
+  background: #f7f5ef !important;
+}
+
+#viewerContainer {
+  background: #f7f5ef !important;
+  inset: 0 !important;
+  overflow: auto !important;
+}
+
+.pdfViewer {
+  background: #f7f5ef !important;
+  padding-bottom: 30px !important;
+}
+
+.pdfViewer .page {
+  margin: 0 auto 24px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
